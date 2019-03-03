@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  margin:0;
+  padding:0;
+  display:block;
+  background-color:#abb2bc;
+}
+
+
+
+.container{
+
+
+}
+
+
+.nav ::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.nav{
+  background-color: #363b42;
+  font-family: 'Roboto Slab',serif;
+
+
+}
+
+.nav a:hover{
+  color:#29703f;
+  text-decoration: overline;
+  font-size:22px;
+}
+
+
+.nav a{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+
+.nav ul{
+  margin:0;
+  list-style: none;
+  float: left;
+  display: inline;
+  padding:0px;
+
+}
+
+header ::after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.nav li{
+  display: inline-block;
+  margin-left: 0px;
+  padding-right: 25px;
+  padding-top: 30px;
+  text-align:center;
+
+}
+
+.nav h1{
+  float:left;
+
+}
+
+p {
+  color:black;
+}
+
+main{
+  background-color:white;
+  margin-top: 4%;
+  margin-right:8%;
+  margin-left:8%;
+  padding: 2%;
+}
+
+.main-article{
+
+
+}
+
+.main-article h2{
+  color:#062fa0;
+  font-size:30px;
+  text-align:center;
+}
+
+.main-article p{
+  font-family:"Lato",monospace;
+  color:;
+  line-height:40px;
+  letter-spacing: 1px;
+}
+
+#victoryRoyale{
+  max-width: 540px;
+  height: auto;
+  display: block;
+  float:right;
+}
+
+main ::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.main-article h3{
+  font-size:25px;
+}
